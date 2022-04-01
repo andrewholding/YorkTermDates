@@ -31,13 +31,13 @@ def find_term(search_term):
 
 	return term
 
-autumn_term = find_term("Autumn Term: ")
+autumn_term = find_term("Autumn Term</strong>: ")
 print("Autumn Term:", autumn_term)
 
-spring_term = find_term("Spring Term: ")
+spring_term = find_term("Spring Term</strong>: ")
 print("Spring Term:", spring_term)
 
-summer_term = find_term("Summer Term: ")
+summer_term = find_term("Summer Term (undergraduate)</strong>:&nbsp;Tuesday<strong>&nbsp;</strong>")
 print("Summer Term:",summer_term)
 
 c = Calendar()
